@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Courses We Provide</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400&display=swap" rel="stylesheet">
+<script src="https://kit.fontawesome.com/0e818a5717.js" crossorigin="anonymous"></script>
+
+</head>
+<body>
+    <section class="sub-header">
+        <nav class="navbar">
+            <div class="navLogo">
+               <img src="images/logo.png" alt="Loading...">
+            </div>
+            <div class="nav-links" id="nav-links">
+                
+                <i class="fa fa-times" onclick="closeMenu()"></i>
+                <ul class="navlist">
+                    <li> <a href="index.html">  HOME </a> </li>
+                    <li> <a href="aboutPage.html"> ABOUT </a> </li>
+                    <li> <a href="coursesPage.html"> COURSE </a> </li>
+                    <li> <a href="blog.html"> BLOG </a> </li>
+                    <li> <a href="contact.html"> CONTACT </a> </li>
+                </ul>
+            </div>
+            
+            
+            <div class="burger" onclick="showMenu()">
+                <div class="line"></div>
+                <div class="line"></div>
+                <div class="line"></div>
+            </div>
+        </nav>
+        
+        <h1>
+           Our Cousres 
+        </h1>
+    </section> 
+    
+    <!-- -------------Courses Section---------->
+    <section class="course">
+        <h1>
+            Courses We Offer
+        </h1>
+        <p class="para">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam, sequi.
+        </p>
+        <div class="row">
+            <div class="course-column">
+                <h3>
+                    Intermediate
+                </h3>
+                <p class="para">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur provident sit laudantium dolorum est delectus quisquam repudiandae nesciunt laboriosam ex.
+                </p>
+            </div>
+            <div class="course-column">
+                <h3>
+                    Degree
+                </h3>
+                <p class="para">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur provident sit laudantium dolorum est delectus quisquam repudiandae nesciunt laboriosam ex.
+                </p>
+            </div>
+            <div class="course-column">
+                <h3>
+                    Post Graduation
+                </h3>
+                <p class="para">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur provident sit laudantium dolorum est delectus quisquam repudiandae nesciunt laboriosam ex.
+                </p>
+            </div>
+    </section>
+
+
+
+<!-- ---------------------Facilities We Provide----------    -->
+     <!-- -----------Facilities Section------------ -->
+
+     <section class="facilities">
+        <h1>
+            Our Facilities
+        </h1>
+        <p class="para">
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quaerat, impedit.
+        </p>
+        <div class="row">
+            <div class="facilities-column">
+                <img src="images/library.png" alt="Library...">
+                <h3>
+                    World Class Library
+                </h3>
+                <p class="para">
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Omnis, sapiente. Explicabo quidem excepturi molestiae repudiandae!
+                </p>
+            </div>
+            <div class="facilities-column">
+                <img src="images/basketball.png" alt="basketball PG...">
+                <h3>
+                    Largest Play Ground
+                </h3>
+                <p class="para">
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Omnis, sapiente. Explicabo quidem excepturi molestiae repudiandae!
+                </p>
+            </div>
+            <div class="facilities-column">
+                <img src="images/cafeteria.png" alt="Library...">
+                <h3>
+                    Healthy and Tasty Food
+                </h3>
+                <p class="para">
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Omnis, sapiente. Explicabo quidem excepturi molestiae repudiandae!
+                </p>
+            </div>
+        </div>
+    </section>
+   
+
+
+
+<!-- ----------------------- -->
+<section class="footer">
+    <h4>
+        About Us 
+    </h4>
+    <p class="para">
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facilis reprehenderit magni, voluptatem, harum nisi quibusdam iste <br> deserunt placeat, natus non qui eius ullam inventore?
+    </p>
+    <div class="icons">
+        <i class="fa fa-facebook" ></i>
+        <i class="fa fa-twitter" ></i>
+        <i class="fa fa-instagram" ></i>
+        <i class="fa fa-linkedin" ></i>
+        
+
+    </div>
+    <p class="para">
+        Made with <i class="fa fa-heart-o" ></i> by Easy Tutorials
+    </p>
+</section>
+
+   
+    
+    <script>
+        let navLinks =document.getElementById("nav-links");
+        function showMenu(){
+            navLinks.style.right = "0";
+            navLinks.style.transition = "1s"
+        }
+        function closeMenu(){
+            navLinks.style.right = "-200px";
+            navLinks.style.transition = "1s"
+        }
+    </script>
+</body>
+</html>
